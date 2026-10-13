@@ -2,8 +2,8 @@
    Replace GOOGLE_FORM_URL with your published Google Form URL.
    Replace FORM_BOOK_FIELD_ENTRY with the entry ID of the prefilled book-title field.
 */
-const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform";
-const FORM_BOOK_FIELD_ENTRY = "entry.000000000000";
+const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfddlmErfbeCsL1QeDHlv9rUFrlxdn4tTbpNBMFag6kfWCcAw/viewform";
+const FORM_BOOK_FIELD_ENTRY = "entry.256765807";
 
 document.querySelectorAll('.order-button').forEach((button) => {
   button.addEventListener('click', () => {
